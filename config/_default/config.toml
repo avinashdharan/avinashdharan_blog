@@ -1,0 +1,28 @@
+# -- Site Configuration --
+# Refer to the theme docs for more details about each of these parameters.
+# https://jpanther.github.io/congo/docs/getting-started/
+
+ baseURL = "http://entserver.box"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+title = "avinashdharan"
+#copyright = "Copy, _right?_ :thinking_face:"
+
+enableEmoji = true
+enableRobotsTXT = true
+
+summaryLength = 0
+
+[author]
+  name = "Avinash Sasidharan"
+  image = "author3.jpeg"
+  bio = "SRE/Devops engineer"
+  links = [
+  #    { email = "mailto:hello@your_domain.com" },
+      { github = "https://github.com/avinashdharan" },
+      { instagram = "https://instagram.com/avinashdharan" },
+      { linkedin = "https://linkedin.com/in/avinashdharan" },
+      { medium = "https://medium.com/@avinashdharan" }
+   ]
+
